@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "shopping-assistant"
+version = "0.1.0"
+description = "Eco-friendly companion for concious consumerism"
+authors = ["alvinotuya84 <alvinotuya8@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+openai = "^1.52.2"
+scikit-learn = "^1.5.2"
+mlxtend = "^0.23.1"
+openpyxl = "^3.1.5"
+firebase-admin = "^6.5.0"
+pinecone = "^5.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
